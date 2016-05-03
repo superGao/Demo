@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.test.slidingbutton.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.test.slidingbutton.MyLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"/>
+            <com.test.slidingbutton.MyFrameLayout
+                android:layout_width="250dip"
+                android:layout_height="60dip"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100dp">
+
+                <TextView
+                    android:id="@+id/mainview_answer_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/w_bg1"
+                    android:gravity="center"
+                    android:paddingLeft="35dip"
+                    android:text="滑动按钮测试"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+                <!-- 此处，滑动按钮的父亲组件不能为FrameLayout -->
+
+                <com.test.slidingbutton.MyLinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <com.test.slidingbutton.SlidingButton
+                        android:id="@+id/mainview_answer_1_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/bn_jt1"
+                        android:gravity="center" />
+                </com.test.slidingbutton.MyLinearLayout>
+            </com.test.slidingbutton.MyFrameLayout>
+        </com.test.slidingbutton.MyLinearLayout>
+    </com.test.slidingbutton.MyScrollView>
+</LinearLayout>
