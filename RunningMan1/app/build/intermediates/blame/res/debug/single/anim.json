@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\mycode\\RunningMan1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\frame_meituan.xml",
+        "source": "E:\\mycode\\RunningMan1\\app\\src\\main\\res\\anim\\frame_meituan.xml"
+    },
+    {
+        "merged": "E:\\mycode\\RunningMan1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\frame_shunfeng.xml",
+        "source": "E:\\mycode\\RunningMan1\\app\\src\\main\\res\\anim\\frame_shunfeng.xml"
+    }
+]
