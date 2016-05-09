@@ -5,7 +5,7 @@ Frosted glass（毛玻璃效果），在网上搜索了许多但是执行的效�
 ![](/demoimage/img2.png)
 
 ###使用
- 1.copy ```com.zsl.fglass.utils.Fglass```到你的项目中
+ 1.copy ```com.supergao.blur.utils.Fglass```到你的项目中
  
  
  2.调用
